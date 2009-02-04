@@ -1,0 +1,17 @@
+Time In Words is a little piece of software I created just as an
+exercise in C.  I saw this screenshot of some guy's screen saver in
+KDE 4.2 which had a clock that said something like "Ten to five", and
+I decided I'd make something similar.
+
+What I made was both a program and a library (header) file of
+functions.  The program outputs the current time in words, but not on
+the "Ten to five" format, but on the "four fifty" format.
+Furthermore, the output is 24-hour based.  If I feel inclined enough I
+might extend the library with a method that provides the time in the
+"Ten to five" format, however it should be noted that this format
+isn't exactly standardized as far as I know, and therefore in the
+event of the extension of the library, the format will be of my own
+preferences.
+
+You are of course welcome to alter the format to your own preferences
+as this is all free software (see COPYING).
